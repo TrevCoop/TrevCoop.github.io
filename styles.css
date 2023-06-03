@@ -1,0 +1,177 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+}
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing:    inherit;
+    box-sizing:         inherit;
+    }
+body {
+    
+    margin:             1em;
+    font-family:        Arial, Helvetica, sans-serif;
+    background:         #222; /* all other bkgrnd elements should inherit this */
+    background:         -moz-radial-gradient(center 45deg, circle closest-corner, #333 50%, #111 50%);
+    background:         -webkit-gradient(radial, center center, 10, center center, 700, from(#333), to(#111));
+}
+a {
+    text-decoration:    none; /* removes hyperlink underline */
+}
+
+/* NAVIGATION MENU */
+
+button {
+    float:              right;
+    border:             none;
+    padding:            0;
+    margin-left:        1em;
+    text-decoration:    none;
+    background:         inherit;
+    color:              rgb(235, 135, 240, 1);
+    font-family:        'Montserrat', sans-serif;
+    font-size:          1rem;
+    cursor:             pointer;
+    text-align:         center;
+    transition:         background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+}
+button:hover {
+    color:              #f2f2f2;
+}
+button:active {
+    color:              #00d0ff       
+}
+button:focus {
+    color:              #f2f2f2;
+}
+.topnav {
+    overflow:           hidden;
+    position:           relative;
+    margin-bottom:      .8em;
+}
+
+/* INTRO SECTION */
+
+.introduction {
+    padding:            1em;
+    padding-bottom: 1.8em;
+    font-family:        'Montserrat', sans-serif;
+    font-family:        200;
+    font-size:          1.7rem;
+    background:         -moz-radial-gradient(center 45deg, circle closest-corner, #00d0ff 50%, #ff4de7 50%);
+    background:         -webkit-gradient(radial, center center, 10, center center, 700, from(#00d0ff), to(#ff4de7));
+}
+.whitetext {
+    color:              #f2f2f2;
+}
+h1 {
+    letter-spacing:     .03em;
+    padding-right:      3em;
+    color:              #222;
+}
+img {
+    min-width:          150px;
+    max-height:         200px;
+    height:             auto;
+    float:              right;
+    margin:             1em;
+    margin-top:         0px;
+    margin-bottom:      0px;
+    border:             7px solid #222;
+    border-radius:      500px;
+    -webkit-border-radius:  500px;
+    -moz-border-radius: 500px;  
+}
+.intro_content {
+    margin-left:        1em;
+}
+.intro_sentence {
+    font-size:          smaller;
+}
+
+/* FOOTER SECTION */
+
+.foot {
+    min-height:         100px;
+    margin-top:         20%;
+}
+.foot_contact {
+    color:              #aaa;
+    text-align:         center;
+}
+.fa-envelope,
+.fa-github,
+.fa-linkedin {
+    color:              rgb(235, 135, 240, 1);
+    font-size:          25px;
+    margin-bottom: 1em;
+}
+.fa-envelope:hover,
+.fa-github:hover,
+.fa-linkedin:hover {
+    color:              #f2f2f2;
+    cursor:             pointer;
+}
+.fa-envelope,
+.fa-envelope:hover {
+    margin-right:       .65em;
+}
+.fa-linkedin,
+.fa-linkedin:hover {
+    margin-left:        .65em;
+}
+.dl_cv{
+    background:         rgb(235, 135, 240, 1);
+    width:              7rem;
+    height:             2rem;
+    color:              #222;
+    float:              unset;
+    font-size:          .7rem;
+    margin:             auto;
+    border-radius:      2px;
+    display: block;
+}
+.dl_cv:hover{
+    background:         #f2f2f2;
+    color:              #222;
+}
+.copy_date {
+    font-size:          x-small;
+    color:              #444;
+    margin-top:         5em;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 600px) {
+    body {
+        margin:         0em;}
+    img {
+        float:          unset; 
+        display:        block; 
+        margin:         auto; 
+        margin-top:     1em; 
+        padding:        0px; 
+        max-width:      150px; 
+        height:         auto; 
+        border:         5px solid #222;
+    }
+    .topnav {
+        display:        none;}
+    .intro_content {
+        margin-left:    0px;}
+    h1 {
+        text-align:     center; 
+        padding:        0px;}
+}
+@media only screen and (max-width: 475px) {
+    .intro_content_text {
+        text-align:     center; }
+}
+@media only screen and (max-width: 300px) {
+    .intro_content_text {
+        font-size:      .5em;}
+}
