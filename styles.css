@@ -24,6 +24,13 @@ a {
 
 /* NAVIGATION MENU */
 
+.topnav {
+    overflow:           hidden;
+    position:           relative;
+    margin-bottom:      .8em;
+}
+
+.topnav a,
 button {
     float:              right;
     border:             none;
@@ -40,19 +47,14 @@ button {
     -webkit-appearance: none;
     -moz-appearance:    none;
 }
-button:hover {
-    color:              #f2f2f2;
+
+.topnav a:hover,
+.topnav a:focus {
+    color: #f2f2f2;
 }
-button:active {
-    color:              #00d0ff       
-}
-button:focus {
-    color:              #f2f2f2;
-}
-.topnav {
-    overflow:           hidden;
-    position:           relative;
-    margin-bottom:      .8em;
+
+.topnav a:active {
+    color: #00d0ff;
 }
 
 /* INTRO SECTION */
@@ -98,16 +100,31 @@ img {
 
 .projects {
     background: #f2f2f2;
-    padding:            1em;
+}
+.resume {
+    background: none;
+    color: #aaa;
+}
+.projects, 
+.resume {
+    padding-right:      1em;
     padding-bottom:     1.8em;
-    padding-left:      2em;
+    padding-left:       2em;
+    padding-top:        3em;
     font-family:        'Montserrat', sans-serif;
     font-family:        200;
     font-size:          1rem;
 }
 
-.projects p {
+.projects p,
+.resume p {
     font-family:        Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:       1em;
+}
+
+.projects h2,
+.resume h2 {
+    font-size: 2em;
 }
 
 /* FOOTER SECTION */
