@@ -69,7 +69,7 @@ button {
 
 .introduction {
     padding:            1em;
-    padding-bottom: 1.8em;
+    padding-bottom:     1.8em;
     font-family:        'Montserrat', sans-serif;
     font-family:        200;
     font-size:          1.7rem;
@@ -104,17 +104,22 @@ h1 {
     font-size:          smaller;
 }
 
-/* PROJECTS AND RESUME SECTION */
+/* PROJECTS RESUME AND CONTACT SECTIONS */
 
 .projects {
+    background:         #f2f2f2;
+}
+.resume {
+    background:         none;
+    color:              #aaa;
+    margin-bottom: 100px;
+}
+#contact {
     background: #f2f2f2;
 }
-.resume {
-    background: none;
-    color: #aaa;
-}
 .projects, 
-.resume {
+.resume,
+#contact {
     padding-right:      1em;
     padding-bottom:     1.8em;
     padding-left:       2em;
@@ -124,20 +129,42 @@ h1 {
     font-size:          1rem;
 }
 
-.projects p,
-.resume p {
+.projects p, 
+.projects small, 
+.projects ul, 
+.projects ol,
+.resume p, 
+.resume small, 
+.resume ul, 
+.resume ol,
+#contact p,
+#contact small,
+#contact ul,
+#contact ol{
     font-family:        Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+    list-style-type:    none; /* removes bullet points in unordered lists */
+}
+
+strong {
+    font-weight: 600;
 }
 
 .projects h2,
-.resume h2 {
+.resume h2
+#contact h2 {
     font-size: 2em;
+}
+
+.projects h3,
+.resume h3 {
+    padding-top: 1em;
 }
 
 .design1_container img,
 .design2_container img,
 .design3_container img{
-    width: 30%;
+    width: 40%;
     height: auto;
     border: none;
 }
@@ -146,6 +173,13 @@ h1 {
     width: auto;
     max-height: 220px;
     border: none;
+}
+.portal2014 img {
+    max-width: 300px;
+    width: 30%;
+}
+#contact {
+    min-height: 300px;
 }
 
 /* FOOTER SECTION */
@@ -188,7 +222,7 @@ h1 {
     font-size:          .7rem;
     margin:             auto;
     border-radius:      2px;
-    display: block;
+    display:            none; /* REPLACE 'NONE' WITH 'BLOCK' IF YOU ADD A CV FILE LINK FOR DOWNLOAD */
 }
 .dl_cv:hover{
     background:         #f2f2f2;
@@ -199,7 +233,9 @@ h1 {
     color:              #444;
     margin-top:         5em;
 }
+
 /* RESPONSIVE */
+
 @media only screen and (max-width: 600px) {
     body {
         margin:         0em;}
@@ -224,8 +260,8 @@ h1 {
     .design1_container img,
     .design2_container img,
     .design3_container img {
-        width:          90%;
-        max-width:      90%;
+        width:          97%;
+        max-width:      97%;
         height:         auto;
         max-height:     none;
     }
