@@ -18,8 +18,16 @@ body {
     background:         -moz-radial-gradient(center 45deg, circle closest-corner, #333 50%, #111 50%);
     background:         -webkit-gradient(radial, center center, 10, center center, 700, from(#333), to(#111));
 }
+
+/* LINKS */
+
 a {
     text-decoration:    none; /* removes hyperlink underline */
+    color: rgb(83, 88, 164);
+}
+
+a:hover {
+    color: rgb(41, 44, 84);
 }
 
 /* NAVIGATION MENU */
@@ -96,7 +104,7 @@ h1 {
     font-size:          smaller;
 }
 
-/* PROJECTS SECTION */
+/* PROJECTS AND RESUME SECTION */
 
 .projects {
     background: #f2f2f2;
@@ -119,7 +127,6 @@ h1 {
 .projects p,
 .resume p {
     font-family:        Verdana, Geneva, Tahoma, sans-serif;
-    padding-left:       1em;
 }
 
 .projects h2,
@@ -127,9 +134,17 @@ h1 {
     font-size: 2em;
 }
 
-.projects img {
+.design1_container img,
+.design2_container img,
+.design3_container img{
     width: 30%;
     height: auto;
+    border: none;
+}
+
+.truth_img_container img {
+    width: auto;
+    max-height: 220px;
     border: none;
 }
 
