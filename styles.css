@@ -138,10 +138,15 @@ h1 {
 #contact p,
 #contact small,
 #contact ul,
-#contact ol{
+#contact ol {
     font-family:        Verdana, Geneva, Tahoma, sans-serif;
     line-height:        28px;
-    list-style-type:    none; /* removes bullet points in unordered lists */
+    list-style-type:    none;               /* removes bullet points in unordered lists */
+}
+.resume ul li,
+.resume ol li {
+    line-height:        160%;
+    margin-bottom:      1em;
 }
 strong {
     font-weight:        600;
@@ -255,11 +260,20 @@ strong {
     .truth_img_container img, 
     .design1_container img,
     .design2_container img,
-    .design3_container img {
+    .design3_container img,
+    .portal2014 img {
         width:          97%;
         max-width:      97%;
         height:         auto;
         max-height:     none;
+    }
+    .portal2014 img {
+        max-width:      500px;
+        margin:         auto;
+    }
+    .resume ul,
+    .resume ol {
+        padding-left: 0px;
     }
 }
 @media only screen and (max-width: 490px) {
