@@ -127,7 +127,6 @@ h1 {
     font-family:        200;
     font-size:          1rem;
 }
-
 .projects p, 
 .projects small, 
 .projects ul, 
@@ -141,44 +140,42 @@ h1 {
 #contact ul,
 #contact ol{
     font-family:        Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 28px;
+    line-height:        28px;
     list-style-type:    none; /* removes bullet points in unordered lists */
 }
-
 strong {
-    font-weight: 600;
+    font-weight:        600;
 }
-
 .projects h2,
 .resume h2
 #contact h2 {
-    font-size: 2em;
+    font-size:          2em;
 }
-
 .projects h3,
 .resume h3 {
-    padding-top: 1em;
+    padding-top:        1em;
 }
-
 .design1_container img,
 .design2_container img,
-.design3_container img{
-    width: 40%;
-    height: auto;
-    border: none;
+.design3_container img {
+    width:              40%;
+    height:             auto;
+    border:             none;
 }
-
 .truth_img_container img {
-    width: auto;
-    max-height: 220px;
-    border: none;
+    width:              auto;
+    max-height:         220px;
+    border:             none;
 }
 .portal2014 img {
-    max-width: 300px;
-    width: 30%;
+    max-width:          300px;
+    width:              30%;
 }
 #contact {
-    min-height: 300px;
+    min-height:         300px;
+}
+.logo2_container {
+    display:            none; /* UNTIL I FIND THIS CONTENT I WILL HIDE THIS THEN CAN DELETE THIS CSS LINE */
 }
 
 /* FOOTER SECTION */
@@ -196,7 +193,7 @@ strong {
 .fa-linkedin {
     color:              rgb(235, 135, 240, 1);
     font-size:          25px;
-    margin-bottom: 1em;
+    margin-bottom:      1em;
 }
 .fa-envelope:hover,
 .fa-github:hover,
@@ -269,9 +266,9 @@ strong {
     .intro_content_text {
         text-align:     center; }
     .intro_content_img img {
-        float: unset;
-        display: block;
-        margin: auto;
+        float:          unset;
+        display:        block;
+        margin:         auto;
     }
 }
 @media only screen and (max-width: 300px) {
