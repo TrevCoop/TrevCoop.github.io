@@ -1,15 +1,11 @@
-html {
+html,
+*,
+*::before,
+*::after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
     box-sizing:         border-box;
 }
-*,
-*::before,
-*::after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing:    inherit;
-    box-sizing:         inherit;
-    }
 body {
     
     margin:             1em;
@@ -23,11 +19,10 @@ body {
 
 a {
     text-decoration:    none; /* removes hyperlink underline */
-    color: #a53570;
+    color:              #a53570;
 }
-
 a:hover {
-    color: #cc2b5e;
+    color:              #cc2b5e;
 }
 
 /* NAVIGATION MENU */
@@ -37,7 +32,6 @@ a:hover {
     position:           relative;
     margin-bottom:      .8em;
 }
-
 .topnav a,
 button {
     float:              right;
@@ -55,14 +49,12 @@ button {
     -webkit-appearance: none;
     -moz-appearance:    none;
 }
-
 .topnav a:hover,
 .topnav a:focus {
-    color: #f2f2f2;
+    color:              #f2f2f2;
 }
-
 .topnav a:active {
-    color: #cc2b5e;
+    color:              #cc2b5e;
 }
 
 /* INTRO SECTION */
@@ -106,11 +98,11 @@ h1 {
 /* PROJECTS RESUME AND CONTACT SECTIONS */
 
 .projects {
-    background:         #f2f2f2;
-}
-.resume {
     background:         none;
     color:              #aaa;
+}
+.resume {
+    background:         #f2f2f2;
 }
 #contact {
     background:         #f2f2f2;
@@ -124,6 +116,7 @@ h1 {
     padding-top:        3em;
     font-family:        'Montserrat', sans-serif;
     font-size:          1rem;
+    min-height:         300px;
 }
 .projects p, 
 .projects small, 
@@ -139,7 +132,7 @@ h1 {
 #contact ol {
     font-family:        Verdana, Geneva, Tahoma, sans-serif;
     line-height:        28px;
-    list-style-type:    none;               /* removes bullet points in unordered lists */
+    list-style-type:    none;               /* REMOVES BULLETS FROM UNORDERED LISTS */
 }
 .resume ul li,
 .resume ol li {
@@ -271,7 +264,7 @@ strong {
     }
     .resume ul,
     .resume ol {
-        padding-left: 0px;
+        padding-left:   0px;
     }
 }
 @media only screen and (max-width: 490px) {
