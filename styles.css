@@ -23,11 +23,11 @@ body {
 
 a {
     text-decoration:    none; /* removes hyperlink underline */
-    color: rgb(83, 88, 164);
+    color: #a53570;
 }
 
 a:hover {
-    color: rgb(41, 44, 84);
+    color: #cc2b5e;
 }
 
 /* NAVIGATION MENU */
@@ -46,7 +46,7 @@ button {
     margin-left:        1em;
     text-decoration:    none;
     background:         inherit;
-    color:              #de321f;
+    color:              #a53570;
     font-family:        'Montserrat', sans-serif;
     font-size:          1rem;
     cursor:             pointer;
@@ -62,7 +62,7 @@ button {
 }
 
 .topnav a:active {
-    color: #d85445;
+    color: #cc2b5e;
 }
 
 /* INTRO SECTION */
@@ -73,8 +73,8 @@ button {
     font-family:        'Montserrat', sans-serif;
     font-family:        200;
     font-size:          1.7rem;
-    background:         -moz-radial-gradient(center 45deg, circle closest-corner, #c86f67 50%, #de321f 50%);
-    background:         -webkit-gradient(radial, center center, 10, center center, 700, from(#c86f67), to(#de321f));
+    background:         -moz-radial-gradient(center 45deg, circle closest-corner, #cc2b5e 50%, #753a88 50%);
+    background:         -webkit-gradient(radial, center center, 10, center center, 700, from(#cc2b5e), to(#753a88));
 }
 .whitetext {
     color:              #f2f2f2;
@@ -196,7 +196,7 @@ strong {
 .fa-envelope,
 .fa-github,
 .fa-linkedin {
-    color:              #de321f;
+    color:              #a53570;
     font-size:          25px;
     margin-bottom:      1em;
 }
@@ -215,7 +215,7 @@ strong {
     margin-left:        .65em;
 }
 .dl_cv{
-    background:         #de321f;
+    background:         #a53570;
     width:              7rem;
     height:             2rem;
     color:              #222;
