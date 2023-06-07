@@ -71,7 +71,6 @@ button {
     padding:            1em;
     padding-bottom:     1.8em;
     font-family:        'Montserrat', sans-serif;
-    font-family:        200;
     font-size:          1.7rem;
     background:         -moz-radial-gradient(center 45deg, circle closest-corner, #cc2b5e 50%, #753a88 50%);
     background:         -webkit-gradient(radial, center center, 10, center center, 700, from(#cc2b5e), to(#753a88));
@@ -124,7 +123,6 @@ h1 {
     padding-left:       2em;
     padding-top:        3em;
     font-family:        'Montserrat', sans-serif;
-    font-family:        200;
     font-size:          1rem;
 }
 .projects p, 
