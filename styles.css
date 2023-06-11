@@ -7,7 +7,6 @@ html,
     box-sizing:         border-box;
 }
 body {
-    
     margin:             1em;
     font-family:        Arial, Helvetica, sans-serif;
     background:         #222; /* all other bkgrnd elements should inherit this */
@@ -94,6 +93,9 @@ h1 {
 }
 .intro_sentence {
     font-size:          smaller;
+}
+p {
+    color:              #222;
 }
 
 /* PROJECTS RESUME AND CONTACT SECTIONS */
