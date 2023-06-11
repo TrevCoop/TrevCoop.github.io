@@ -64,6 +64,8 @@ button {
     padding-bottom:     1.8em;
     font-family:        'Montserrat', sans-serif;
     font-size:          1.7rem;
+    filter:             progid:DXImageTransform.Microsoft.gradient( startColorstr='#753a88', endColorstr='#cc2b5e',GradientType=1 );
+    -ms-filter:         "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#753a88, endColorstr=#cc2b5e)";
     background:         -moz-radial-gradient(center 45deg, circle closest-corner, #cc2b5e 50%, #753a88 50%);
     background:         -webkit-gradient(radial, center center, 10, center center, 700, from(#cc2b5e), to(#753a88));
 }
