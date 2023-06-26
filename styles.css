@@ -135,6 +135,9 @@ p {
     line-height:        28px;
     list-style-type:    none;               /* REMOVES BULLETS FROM UNORDERED LISTS */
 }
+.projects p {
+    color:              #aaa;
+}
 .resume ul li,
 .resume ol li {
     line-height:        160%;
